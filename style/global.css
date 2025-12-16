@@ -50,4 +50,37 @@ main {
 #info {
     display: block;
     align-items: center;
+    
 }
+
+#info img {
+    width: 112px;
+    margin: auto;
+    padding-bottom: 56px;
+}
+
+#tags span {
+
+}
+
+#tags img {
+    width: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    div {
+        span {
+            display: flex;
+            gap: 8px;
+            font: var(--text-md);
+            color: var(--gray-200);
+        }
+    }
+    
+}
+
+
